@@ -1,0 +1,20 @@
+.modal-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: black;
+    z-index: 99;
+    opacity: 0.9;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-modal {
+    /* position: absolute; */
+    /* background-color: aqua; */
+    width: 300px;
+}
