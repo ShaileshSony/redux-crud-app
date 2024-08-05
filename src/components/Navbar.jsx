@@ -19,7 +19,7 @@ const Navbar = () => {
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
-            <Link to="/" className="navbar-brand">
+            <Link to="/redux-crud-app" className="navbar-brand">
               User Box
             </Link>
             <button
@@ -48,7 +48,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/" className="nav-link">
+                  <Link to="/redux-crud-app" className="nav-link">
                     ALL Post
                   </Link>
                 </li>

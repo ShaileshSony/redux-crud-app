@@ -7,17 +7,18 @@ import { Link } from "react-router-dom";
 const Read = () => {
   const dispatch = useDispatch();
   const [radioData, setRadioData] = useState("");
-  const [userId, setUserId] = useState()
+  const [userId, setUserId] = useState();
+
+  useEffect(() => {
+    dispatch(showUsers());
+    // console.log("getUser....",users)
+  }, []);
 
   const { users, loading, searchUser } = useSelector((state) => {
     console.log("getUser....", state.app);
     return state.app;
   });
 
-  useEffect(() => {
-    dispatch(showUsers());
-    // console.log("getUser....",users)
-  }, []);
   // console.log("userId-", userId)
   
   // delete method
@@ -109,7 +110,7 @@ const Read = () => {
                     >
                       View
                     </button>
-                    <Link to={`edit/${ele.id}`}
+                    <Link to={`/redux-crud-app/edit/${ele.id}`}
                       className="mx-1 bg-warning px-2 py-1 rounded-2 text-dark border-black "
                     >
                       Edit

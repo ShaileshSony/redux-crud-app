@@ -12,9 +12,9 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-        <Route exact path="/" element={<Read/>}/>  
-        <Route exact path="/create" element={<Create/>}/>  
-        <Route exact path="/edit/:id" element={<Update/>}/>  
+        <Route exact path="/redux-crud-app" element={<Read/>}/>  
+        <Route path="/create" element={<Create/>}/>  
+        <Route path="/redux-crud-app/edit/:id" element={<Update/>}/>  
         </Routes>
       </BrowserRouter>
     </>

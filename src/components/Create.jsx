@@ -19,7 +19,7 @@ const Create = () => {
         console.log("user....",userData)
         dispatch(createUser(userData))
         setUserData({});
-        navigate('/')
+        navigate('/redux-crud-app')
 
     }
 

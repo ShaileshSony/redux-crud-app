@@ -31,7 +31,7 @@ const Update = () => {
   const handleUpdate = (e) => {
     e.preventDefault()
     dispatch(updateUser(updateData));
-    navigate('/')
+    navigate('/redux-crud-app')
   };
 
   if (loading) {
