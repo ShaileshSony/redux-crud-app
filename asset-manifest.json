@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/redux-crud-app/static/css/main.8648633d.chunk.css",
+    "main.js": "/redux-crud-app/static/js/main.69bec353.chunk.js",
+    "main.js.map": "/redux-crud-app/static/js/main.69bec353.chunk.js.map",
+    "runtime-main.js": "/redux-crud-app/static/js/runtime-main.9498806c.js",
+    "runtime-main.js.map": "/redux-crud-app/static/js/runtime-main.9498806c.js.map",
+    "static/js/2.9d467a3e.chunk.js": "/redux-crud-app/static/js/2.9d467a3e.chunk.js",
+    "static/js/2.9d467a3e.chunk.js.map": "/redux-crud-app/static/js/2.9d467a3e.chunk.js.map",
+    "static/js/3.f8222889.chunk.js": "/redux-crud-app/static/js/3.f8222889.chunk.js",
+    "static/js/3.f8222889.chunk.js.map": "/redux-crud-app/static/js/3.f8222889.chunk.js.map",
+    "index.html": "/redux-crud-app/index.html",
+    "precache-manifest.f65f4c876aa315567c4189d653396ba8.js": "/redux-crud-app/precache-manifest.f65f4c876aa315567c4189d653396ba8.js",
+    "service-worker.js": "/redux-crud-app/service-worker.js",
+    "static/css/main.8648633d.chunk.css.map": "/redux-crud-app/static/css/main.8648633d.chunk.css.map",
+    "static/js/2.9d467a3e.chunk.js.LICENSE.txt": "/redux-crud-app/static/js/2.9d467a3e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9498806c.js",
+    "static/js/2.9d467a3e.chunk.js",
+    "static/css/main.8648633d.chunk.css",
+    "static/js/main.69bec353.chunk.js"
+  ]
+}
